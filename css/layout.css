@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* Documento CSS de formatação dos site
+ * Author: Fábio C.S. Miranda
+ */
+@import 'reset.css';
+@import 'text.css';
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+    
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2em;
+  color:#8c762f;
+}
+
+a {
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+small {
+  font-size: 0.8em;
+}
+
+/* `Misc Classes
+----------------------------------------------------------------------------------------------------*/
+.clear{
+    clear: both;
+}
+.align_center {
+  text-align: center;
+}
+
+.align_right {
+  text-align: right;
+}
+
+.align_left{
+	text-align: left;
+}
+
+.float_left{
+	float:left;
+}
+
+.float_right{
+	float:right
+}
+div:after, ol:after, form:after, ul:after, dl:after {
+	content:".";
+	display:block;
+	clear:both;
+	visibility:hidden;
+	height:0;
+	overflow:hidden;
+}
+/*=================================================*/
