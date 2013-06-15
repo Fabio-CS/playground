@@ -6,14 +6,16 @@
 <?php include 'head.php'; ?>
 <script>
 $(document).ready(function(e) {
-menu("menu_home");	
+menu("menu_cultura");	
 });
 </script>
 </head>
 <body>
+    <div id="main_container">
         <?php include 'topo.php'; ?>
         <div id="conteudo">
         </div>
     <?php include 'rodape.php'; ?>
+    </div>
 </body>
 </html>

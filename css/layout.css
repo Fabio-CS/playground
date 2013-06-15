@@ -66,4 +66,41 @@ div:after, ol:after, form:after, ul:after, dl:after {
 	height:0;
 	overflow:hidden;
 }
-/*=================================================*/
+
+/*======Custom===========================================*/
+
+#main_container{
+    position: absolute;
+    width: 1200px;
+    height: 1800px;
+}
+
+li[id*="menu"] {
+    display: inline;
+    margin-left: 5px;
+}
+
+li[id*="menu"]:first-child {
+    margin-left: 115px;
+}
+/*
+#menu{
+    margin-left: 110px;
+} /*Mesmo que o de cima*/
+
+#div_logo{
+    margin: 70px 0px 70px 115px;
+}
+
+#div_barra_rodape{
+    margin-left: 115px;
+}
+
+#div_barra_rodape img, p{
+    float: left;
+}
+
+#div_barra_rodape p{
+    margin-left: 5px;
+    color: #898888;
+}
