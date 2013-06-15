@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
 <meta name="description" content="texto de descri&ccedil;&atilde;o do site">
-<title>Vidal Advogados</title>
+<title>Playground</title>
 <?php include 'head.php'; ?>
 <script>
 $(document).ready(function(e) {

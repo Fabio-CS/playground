@@ -94,6 +94,7 @@ li[id*="menu"]:first-child {
 
 #div_barra_rodape{
     margin-left: 115px;
+    color: #898888;
 }
 
 #div_barra_rodape img, p{
@@ -102,5 +103,12 @@ li[id*="menu"]:first-child {
 
 #div_barra_rodape p{
     margin-left: 5px;
-    color: #898888;
+    margin-right: 7px;
+}
+
+#div_barra_rodape a {
+    color: inherit;
+    text-decoration: none;
+    margin-right: 3px;
+    margin-left: 7px;
 }
