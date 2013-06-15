@@ -5,26 +5,15 @@
         <?php include 'head.php'; ?>
         <script>
             $(document).ready(function(e) {
-                menu("menu_cultura");
-                SetBg("cultura");
+                menu("menu_arq_e_des");
             });
         </script>
     </head>
     <body>
         <div id="main_container">
-            <div id="main_cultura">
+            <div id="main_arq_e_des">
                 <?php include 'topo.php'; ?>
                 <div id="conteudo">
-                    <h1>Cultura</h1>
-                    
-                    <div class="box_highlight">
-                        <div class="foto"></div>
-                    </div>
-                    
-                    <div class="box">
-                        
-                    </div>
-                    
                 </div>
                 <?php include 'rodape.php'; ?>
             </div>
