@@ -18,8 +18,9 @@ h3,
 h4,
 h5,
 h6 {
+  font-weight: bold;
   line-height: 1.2em;
-  color:#8c762f;
+  color:#ec008c;
 }
 
 a {
@@ -70,35 +71,152 @@ div:after, ol:after, form:after, ul:after, dl:after {
 /*======Container===========================================*/
 
 #main_container{
-    position: relative;
+    width: 980px;
     margin: 0 auto;
-    width: 1200px;
-    height: 1800px;
 }
 /*======Topo===========================================*/
-li[id*="menu"] {
+#menu{
+    margin-bottom: 0;
+}
+#menu li{
+    height: 25px;
+    display: inline-block;
+    margin-left: 0px;
+}
+#menu li:first-child{
+    margin-left: 0px;
+}
+#menu li a{
+    margin-bottom: -10px;
+    height: 25px;
+    display: inline-block;
+}
+#menu_cultura {
+    background: url("../imagens/img_menu_inatv_CULTURA.png") center center no-repeat;
+    width: 79px;
+}
+#menu_cultura.menuAtivo, #menu_cultura:hover {
+    background: url("../imagens/img_menu_atv_CULTURA.png") center center no-repeat;
+}
+#menu_cultura a{
+    width: 79px;
+}
+#menu_gastronomia {
+    background: url("../imagens/img_menu_inatv_GASTRONOMIA.png") center center no-repeat;
+    width: 126px;
+}
+#menu_gastronomia.menuAtivo, #menu_gastronomia:hover {
+    background: url("../imagens/img_menu_atv_GASTRONOMIA.png") center center no-repeat;
+}
+#menu_gastronomia a{
+    width: 126px;
+}
+
+#menu_moda {
+    background: url("../imagens/img_menu_inatv_MODA.png") center center no-repeat;
+    width: 63px;
+}
+#menu_moda.menuAtivo, #menu_moda:hover {
+    background: url("../imagens/img_menu_atv_MODA.png") center center no-repeat;
+}
+#menu_moda a{
+    width: 63px;
+}
+#menu_saude {
+    background: url("../imagens/img_menu_inatv_SAUDE.png") center center no-repeat;
+    width: 63px;
+}
+#menu_saude.menuAtivo, #menu_saude:hover {
+    background: url("../imagens/img_menu_atv_SAUDE.png") center center no-repeat;
+}
+#menu_saude a{
+    width: 63px;
+}
+#menu_viagem {
+    background: url("../imagens/img_menu_inatv_VIAGEM.png") center center no-repeat;
+    width: 76px;
+}
+#menu_viagem.menuAtivo, #menu_viagem:hover {
+    background: url("../imagens/img_menu_atv_VIAGEM.png") center center no-repeat;
+}
+#menu_viagem a{
+    width: 76px;
+}
+#menu_arquiteturadesign {
+    background: url("../imagens/img_menu_inatv_ARQUITETURA_DESIGN.png") center center no-repeat;
+    width: 192px;
+}
+#menu_arquiteturadesign.menuAtivo, #menu_arquiteturadesign:hover {
+    background: url("../imagens/img_menu_atv_ARQUITETURA_DESIGN.png") center center no-repeat;
+}
+#menu_arquiteturadesign a{
+    width: 192px;
+}
+
+#menu_voluntariado {
+    background: url("../imagens/img_menu_inatv_VOLUNTARIADO.png") center center no-repeat;
+    width: 132px;
+}
+#menu_voluntariado.menuAtivo, #menu_voluntariado:hover {
+    background: url("../imagens/img_menu_atv_VOLUNTARIADO.png") center center no-repeat;
+}
+#menu_voluntariado a{
+    width: 132px;
+}
+#menu_zoom {
+    background: url("../imagens/img_menu_inatv_ZOOM.png") center center no-repeat;
+    width: 63px;
+}
+#menu_zoom.menuAtivo, #menu_zoom:hover {
+    background: url("../imagens/img_menu_atv_ZOOM.png") center center no-repeat;
+}
+#menu_zoom a{
+    width: 63px;
+}
+#menu_guia {
+    background: url("../imagens/img_menu_inatv_GUIA_SERVICOS.png") center center no-repeat;
+    width: 151px;
+}
+#menu_guia.menuAtivo, #menu_guia:hover {
+    background: url("../imagens/img_menu_atv_GUIA_SERVICOS.png") center center no-repeat;
+}
+#menu_guia a{
+    width: 151px;
+}
+/*li[id*="menu"] {
     display: inline;
     margin-left: 5px;
 }
 
 li[id*="menu"]:first-child {
     margin-left: 0px;
-}
+}*/
 
 #div_logo{
-    margin: 0px 0px 70px 15px;
+    margin: 0px 0px 50px 15px;
     padding-top: 70px;
 }
 
 #div_menu{
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 /*======rodape===========================================*/
+#div_rodape{
+    margin-left: 20px;
+    width: 980px;
+    margin: 0 auto;
+}
+#div_redes_sociais{
+    margin-top: -5px;
+    float: right;
+}
 #div_barra_rodape{
     color: #898888;
+    width: 550px;
+    float: left;
 }
 
-#div_barra_rodape img, p{
+#div_barra_rodape img, #div_barra_rodape p{
     float: left;
 }
 
@@ -114,23 +232,17 @@ li[id*="menu"]:first-child {
     margin-left: 7px;
 }
 /*======Cultura (index)===========================================*/
-#main_container:first-child{
-    width: 1020px;
-    margin: auto;
-}
-
-#main_cultura [class*=box]{
+#div_esquerda{
+    float: left;
     width: 660px;
-    height: 200px;
-    margin-bottom: 30px;
+    margin-left: 20px;
 }
-
-.box_highlight{
-    background-color: #ec068f;
+/*============== Classes =================*/
+.legendaAnuncio{
+    font-size: 10px;
 }
-
-.foto{
-    width: 280px;
-    height: 180px;
-    color: #ecebeb;
+.anuncio660x86{
+    width: 660px;
+    height: 86px;
+    background-color: #ecebeb;
 }

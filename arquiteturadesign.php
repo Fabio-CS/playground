@@ -5,7 +5,7 @@
         <?php include 'head.php'; ?>
         <script>
             $(document).ready(function(e) {
-                menu("menu_arq_e_des");
+                menu("menu_arquiteturadesign");
             });
         </script>
     </head>
