@@ -353,6 +353,12 @@ div:after, ol:after, form:after, ul:after, dl:after {
     width: 250px;
     height: 250px;
 }
+
+#div_main_zoom .anuncio250x250{
+    position: relative;
+    left: 5px;
+}
+
 .anuncio250x125{
     width: 250px;
     height: 125px;
@@ -400,7 +406,8 @@ div:after, ol:after, form:after, ul:after, dl:after {
 }
 
 #div_boxhist{
-    position: relative;
+    position:  relative;
+    left: 5px;
     width: 250px;
     height: 240px;
     background-color: #898888;
@@ -434,7 +441,7 @@ div:after, ol:after, form:after, ul:after, dl:after {
 #box_pesq{
     width: 255px;
     height: 120px;
-    background-color: #fff;
+    background-color: rgba(255,255,255,0.7);
     position: relative;
     margin-bottom: 15px;
 }
@@ -489,5 +496,10 @@ div:after, ol:after, form:after, ul:after, dl:after {
 .album .alb_tit{
     color: #000;
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#div_main_zoom h1{
+    margin-top: 0px;
     margin-bottom: 10px;
 }

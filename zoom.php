@@ -6,12 +6,13 @@
         <script>
             $(document).ready(function(e) {
                 menu("menu_zoom");
+                SetBg("zoom");
             });
         </script>
     </head>
     <body>
         <div id="div_main_container">
-            <div id="main_zoom">
+            <div id="div_main_zoom">
                 <?php include 'topo.php'; ?>
                 <div id="conteudo">
 
