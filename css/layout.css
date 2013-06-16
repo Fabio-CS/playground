@@ -307,6 +307,11 @@ div:after, ol:after, form:after, ul:after, dl:after {
     color: #fff;
     margin-bottom: 10px;
 }
+
+.cultura_item a{
+    text-decoration: none;
+}
+
 .cultura_item p{
     line-height: 1.5em;
     margin-bottom: 21px;
