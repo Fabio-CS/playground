@@ -284,6 +284,13 @@ div:after, ol:after, form:after, ul:after, dl:after {
     height: 86px;
     margin-bottom: 16px;
 }
+
+.anuncio681x78{
+    width: 681px;
+    height: 78px;
+    margin-bottom: 35px;
+}
+
 .legendaFoto{
     margin-top: 17px;
     color: #000;
@@ -337,4 +344,60 @@ div:after, ol:after, form:after, ul:after, dl:after {
     position: absolute;
     right: 10px;
     top: 12px;
+}
+
+#div_boxhist{
+    position: relative;
+    width: 250px;
+    height: 240px;
+    background-color: #898888;
+    margin-bottom: 10px;
+}
+
+#div_boxhist #historico{
+    position: absolute;
+    margin-top: 60px;
+}
+
+#div_boxhist li{
+    color:#fff;
+    /*list-style-image: url('../imagens/img_rss.png');*/
+    list-style-type: square;
+    margin-top: 5px;
+}
+
+#div_boxhist h5, h6{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#box_pesq{
+    width: 255px;
+    height: 120px;
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+#box_pesq #pesquisa{
+    width: 225px;
+    height: 45px;
+    position: relative;
+    left: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #bababa;
+    border-radius: 5px;
+}
+
+#box_pesq #buscar{
+    width: 90px;
+    height: 30px;
+    background-color: #898888;
+    color: #fff;
+    margin: auto;
+    position: relative;
+    left: 80px;
+    border: 0px;
+    font-weight: bold;
 }
