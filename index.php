@@ -20,6 +20,14 @@
                         
                         <div class="box_cultura destaq">
                             <div class="foto"></div>
+                            <div class="texto">
+                                <h2>03 de Maio</h2>
+                                <h3>Holiday on ice</h3>
+                                <p>Patinação no gelo com toda a turma da Disney!</p>
+                                <p>Classificação: LIVRE</p>
+                                <p>Desconto para assinantes</p>
+                                
+                            </div>
                         </div>
                         
                     </div>

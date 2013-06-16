@@ -314,6 +314,7 @@ div:after, ol:after, form:after, ul:after, dl:after {
 .box_cultura{
     width: 660px;
     height: 210px;
+    position: absolute;
 }
 
 .destaq{
@@ -325,6 +326,15 @@ div:after, ol:after, form:after, ul:after, dl:after {
     width: 280px;
     height: 185px;
     position: absolute;
-    margin-left: 13px;
-    margin-top: 12px;
+    left: 13px;
+    top: 12px;
+}
+
+.box_cultura .texto{
+    width: 335px;
+    height: 180px;
+    border: 1px solid red;
+    position: absolute;
+    right: 10px;
+    top: 12px;
 }
