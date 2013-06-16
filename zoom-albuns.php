@@ -25,7 +25,7 @@
                         </div>
 
                         <div id="colecao_albums">
-                            <h2>Álbums</h2>
+                            <h2>Albuns</h2>
 
                             <div class="album">
                                 <div class="img_album"></div>
