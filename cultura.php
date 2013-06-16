@@ -30,14 +30,14 @@
                                 </div>
                             </a>
                             <div class="info_item_cultura">
-                                <a href="cultura-detalhe.php"><h2>03 de Maio</h2></a>
-                                <a href="cultura-detalhe.php"><h4>Holiday on ice</h4></a>
+                                <h2>03 de Maio</h2>
+                                <h4>Holiday on ice</h4>
                                 <p>
                                     Patinação no gelo com toda a turma da Disney!<br>
                                     Classificação: LIVRE<br>
                                     <span>Desconto para assinantes</span>
                                 </p>
-                                <a href="#" class="mais_info"></a>
+                                <a href="cultura-detalhe.php" class="mais_info"></a>
                             </div>
                         </div>
                         <div class="cultura_item">

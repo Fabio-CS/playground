@@ -11,7 +11,7 @@
             <li id="menu_viagem"><a href="viagem.php"></a></li>
             <li id="menu_arquiteturadesign"><a href="arquiteturadesign.php"></a></li>
             <li id="menu_voluntariado"><a href="voluntariado.php"></a></li>
-            <li id="menu_zoom"><a href="zoom.php"></a></li>
+            <li id="menu_zoom"><a href="zoom-albuns.php"></a></li>
             <li id="menu_guia"><a href="guia.php"></a></li>
         </ul>
     </div>
