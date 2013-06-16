@@ -70,7 +70,7 @@ div:after, ol:after, form:after, ul:after, dl:after {
 
 /*======Container===========================================*/
 
-#main_container{
+#div_main_container{
     width: 980px;
     margin: 0 auto;
 }
@@ -81,10 +81,10 @@ div:after, ol:after, form:after, ul:after, dl:after {
 #menu li{
     height: 25px;
     display: inline-block;
-    margin-left: 0px;
+    margin-left: 1px;
 }
 #menu li:first-child{
-    margin-left: 0px;
+    margin-left: 3px;
 }
 #menu li a{
     margin-bottom: -10px;
@@ -183,28 +183,17 @@ div:after, ol:after, form:after, ul:after, dl:after {
 #menu_guia a{
     width: 151px;
 }
-/*li[id*="menu"] {
-    display: inline;
-    margin-left: 5px;
-}
-
-li[id*="menu"]:first-child {
-    margin-left: 0px;
-}*/
-
 #div_logo{
     margin: 0px 0px 50px 15px;
     padding-top: 70px;
 }
-
 #div_menu{
     margin-bottom: 25px;
 }
 /*======rodape===========================================*/
 #div_rodape{
-    margin-left: 20px;
     width: 980px;
-    margin: 0 auto;
+    margin: 60px auto 20px;
 }
 #div_redes_sociais{
     margin-top: -5px;
@@ -214,6 +203,7 @@ li[id*="menu"]:first-child {
     color: #898888;
     width: 550px;
     float: left;
+    margin-left: 20px;
 }
 
 #div_barra_rodape img, #div_barra_rodape p{
@@ -236,13 +226,55 @@ li[id*="menu"]:first-child {
     float: left;
     width: 660px;
     margin-left: 20px;
+    margin-top: 14px;
+}
+#div_main_cultura{
+    width: 980px;
+}
+#div_textosConteudo p, #div_agenda p{
+    margin-bottom: 17px;
+    font-size: 18px;
+}
+#div_agenda{
+    margin-top: 15px;
+}
+#div_agenda h5{
+    margin-bottom: 15px;
+}
+#div_btn_redes{
+    margin-top: 20px;
+}
+#box_zoom{
+    width: 250px;
+    height: 290px;
+    background-color: #ec008c;
+}
+#div_fotozoom{
+    margin: 10px auto;
 }
 /*============== Classes =================*/
 .legendaAnuncio{
-    font-size: 10px;
+    font-size: 11px;
+    margin-bottom: 10px;
 }
 .anuncio660x86{
     width: 660px;
     height: 86px;
     background-color: #ecebeb;
+    margin-bottom: 16px;
+}
+.legendaFoto{
+    margin-top: 17px;
+    color: #000;
+    margin-bottom: 12px;
+}
+.anuncio p{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: table;
+}
+.anuncio span{
+    display: table-cell;
+    vertical-align: middle;
 }
