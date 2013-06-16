@@ -310,3 +310,21 @@ div:after, ol:after, form:after, ul:after, dl:after {
     display: table-cell;
     vertical-align: middle;
 }
+
+.box_cultura{
+    width: 660px;
+    height: 210px;
+}
+
+.destaq{
+    background-color: #ec068f;
+}
+
+.box_cultura .foto{
+    background-color: #ecebeb;
+    width: 280px;
+    height: 185px;
+    position: absolute;
+    margin-left: 13px;
+    margin-top: 12px;
+}
