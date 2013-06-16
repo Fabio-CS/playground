@@ -508,3 +508,7 @@ div:after, ol:after, form:after, ul:after, dl:after {
     margin-top: 0px;
     margin-bottom: 10px;
 }
+
+#div_noticias h2{
+    color: #898888;
+}
