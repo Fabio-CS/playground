@@ -46,12 +46,22 @@
                         </div>
                     </div>
                     <div id="div_direita">
-                        <div class="box_zoom">
-                            <div class="div_fotozoom"><img src="imagens/img_zoom.png"></div>
+                        <div id="div_boxzoom">
+                            <div id="div_fotozoom">
+                                <img src="imagens/img_zoom.png"><br>
+                                <img id="img_tit_zoom" src="imagens/img_zoom_tit.png">
+                            </div>
                             <p>Festa de Aniversário do Theo</p>
                             <p><span>Grêmio Náutico União</span></p>
                         </div>
-                        <div class="box">
+                        <div class="anuncio250x250 anuncio">
+                            <p><span>PUB <br> 250 x 250px</span></p>
+                        </div>
+                        <div class="anuncio250x125 anuncio">
+                            <p><span>PUB <br> 250 x 125px</span></p>
+                        </div>
+                        <div class="anuncio250x125 anuncio">
+                            <p><span>PUB <br> 250 x 125px</span></p>
                         </div>
                     </div>
                 </div>

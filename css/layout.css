@@ -244,13 +244,35 @@ div:after, ol:after, form:after, ul:after, dl:after {
 #div_btn_redes{
     margin-top: 20px;
 }
-#box_zoom{
-    width: 250px;
-    height: 290px;
+#div_direita{
+    float:right;
+}
+#div_boxzoom{
+    width: 230px;
+    height: 270px;
     background-color: #ec008c;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 #div_fotozoom{
-    margin: 10px auto;
+    margin: 0 auto;
+    text-align: center;
+}
+#img_tit_zoom {
+    margin: 15px auto 10px;
+}
+#div_boxzoom p{
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+#div_boxzoom p span{
+    color: #000;
+}
+#div_direita .anuncio{
+    margin-bottom: 10px;
 }
 /*============== Classes =================*/
 .legendaAnuncio{
@@ -260,13 +282,23 @@ div:after, ol:after, form:after, ul:after, dl:after {
 .anuncio660x86{
     width: 660px;
     height: 86px;
-    background-color: #ecebeb;
     margin-bottom: 16px;
 }
 .legendaFoto{
     margin-top: 17px;
     color: #000;
     margin-bottom: 12px;
+}
+.anuncio250x250{
+    width: 250px;
+    height: 250px;
+}
+.anuncio250x125{
+    width: 250px;
+    height: 125px;
+}
+.anuncio{
+    background-color: #ecebeb;
 }
 .anuncio p{
     width: 100%;
