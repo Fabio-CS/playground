@@ -10,7 +10,7 @@
         </script>
     </head>
     <body>
-        <div id="main_container">
+        <div id="div_main_container">
             <div id="main_guia">
                 <?php include 'topo.php'; ?>
                 <div id="conteudo">
