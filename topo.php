@@ -4,7 +4,7 @@
     </div>
     <div id="div_menu">
         <ul id="menu">
-            <li id="menu_cultura"><a href="index.php"></a></li>
+            <li id="menu_cultura"><a href="cultura.php"></a></li>
             <li id="menu_gastronomia"><a href="gastronomia.php"></a></li>
             <li id="menu_moda"><a href="moda.php"></a></li>
             <li id="menu_saude"><a href="saude.php"></a></li>
