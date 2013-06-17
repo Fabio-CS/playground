@@ -530,7 +530,7 @@ div:after, ol:after, form:after, ul:after, dl:after {
     position: relative;
     left: -20px;
 }
-#noticia_container #seta_dir, #seta_esq{
+#noticia_container #seta_dir, #noticia_container #seta_esq{
     float: left;
     height: 250px;
     width: 20px;
@@ -587,8 +587,6 @@ div:after, ol:after, form:after, ul:after, dl:after {
 #recomenda{
     width: 250px;
     background-color: #ecebeb;
-    position: relative;
-    left: 5px;
 }
 #rec_conteudo{
     position: relative;
