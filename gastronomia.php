@@ -6,6 +6,7 @@
         <script>
             $(document).ready(function(e) {
                 menu("menu_gastronomia");
+                SetBg("gastronomia");
             });
         </script>
     </head>
@@ -20,11 +21,37 @@
 
                         <p class="legendaAnuncio">Patrocinado</p>
                         <div class="anuncio660x86 anuncio">
-                            <p><span>660 x 86 px</span></p>
+                            <p><span>681 x 86 px</span></p>
                         </div>
 
                         <div id="div_noticias">
                             <h2>Últimas notícias</h2>
+                            
+                            <div id="noticia_container">
+                                <div id="seta_esq"><img src="imagens/img_arrow_left.png" alt=""></div>
+                                <div class="noticia_item">
+                                    <img src="imagens/img_mae_menina.png" alt="">
+                                    <h6>GASTRONOMIA</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                                </div>
+                                <div class="noticia_item">
+                                    <img src="imagens/img_mae_menina.png" alt="">
+                                    <h6>GASTRONOMIA</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                                </div>
+                                <div class="noticia_item">
+                                    <img src="imagens/img_mae_menina.png" alt="">
+                                    <h6>GASTRONOMIA</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                                </div>
+                                <div class="noticia_item">
+                                    <img src="imagens/img_mae_menina.png" alt="">
+                                    <h6>GASTRONOMIA</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                                </div>
+                                <div id="seta_dir"><img src="imagens/img_arrow_right.png" alt=""></div>
+                            </div>
+                            
                         </div>
                     </div>
 
@@ -36,28 +63,19 @@
                             </form>
                         </div>
                         <div id="div_boxhist">
-                            <img class="tit_album" src="imagens/img_tit_album.png" alt="">
+                            <img class="tit_album" src="imagens/img_tit_historico.png" alt="">
                             <ul id="historico">
                                 <li id="ano"> <h5>2013</h5>
-                                    <ul> 
-                                        <li id="mes"><H6>JANEIRO</H6>
-                                            <ul id="albuns">
-                                                <li>LANÇAMENTO MARCA</li>
-                                                <li>FESTA DE ANIVERSARIO DO THEO</li>
-                                                <li>LANÇAMENTO MARCA</li>
-                                                <li>LANÇAMENTO MARCA</li>
-                                                <li>LANÇAMENTO MARCA</li>
-                                            </ul>
-                                        </li>
+                                    <ul id="mes"> 
+                                        <li><H6>JANEIRO (2)</H6></li>
+                                        <li><H6>FEVEREIRO</H6></li>
+                                        <li><H6>MARÇO(5)</H6></li>
                                     </ul>
                                 </li>
                             </ul>
                         </div>
                         <div class="anuncio250x250 anuncio">
                             <p><span>PUB <br> 250 x 250px</span></p>
-                        </div>
-                        <div class="anuncio250x250 anuncio">
-                            <p><span>PUB <br> 250 x 250</span></p>
                         </div>
                     </div>
                     <?php include 'rodape.php'; ?>

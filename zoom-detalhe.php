@@ -6,7 +6,7 @@
         <script>
             $(document).ready(function(e) {
                 menu("menu_zoom");
-                SetBg("zoom");
+                SetBg("zoom_det");
             });
         </script>
     </head>
@@ -24,88 +24,110 @@
                             <p><span>660 x 86 px</span></p>
                         </div>
 
-                        <div id="colecao_albums">
-                            <h2>Albuns</h2>
+                        <div id="colecao_albums" class="div_alb_detalhe">
+                            <h2>Albuns > Festa de Aniversario do Theo</h2>
+
+                            <div id="descr_album">
+                                <p>Local do Evento</p>
+                                <p>Créditos.</p>
+                                <p>Texto</p>
+                            </div>
 
                             <div class="album">
                                 <div class="img_album"></div>
-                                <p class="alb_tit">Nome do Evento</p>
-                                <p>Local do Evento</p>
+                                <p class="alb_tit">Legenda</p>
+                                <p>Tags: Theo Axelrud, festa</p>
+                                <img src="imagens/img_redes_albuns.png" alt="">
                             </div>
                             <div class="album">
                                 <div class="img_album"></div>
-                                <p class="alb_tit">Nome do Evento</p>
-                                <p>Local do Evento</p>
+                                <p class="alb_tit">Legenda</p>
+                                <p>Tags: Theo Axelrud, festa</p>                                
+                                <img src="imagens/img_redes_albuns.png" alt="">
                             </div>
                             <div class="album">
                                 <div class="img_album"></div>
-                                <p class="alb_tit">Nome do Evento</p>
-                                <p>Local do Evento</p>
+                                <p class="alb_tit">Legenda</p>
+                                <p>Tags: Theo Axelrud, festa</p>                                
+                                <img src="imagens/img_redes_albuns.png" alt="">
                             </div>
                             <div class="album">
                                 <div class="img_album"></div>
-                                <p class="alb_tit">Nome do Evento</p>
-                                <p>Local do Evento</p>
+                                <p class="alb_tit">Legenda</p>
+                                <p>Tags: Theo Axelrud, festa</p>                                
+                                <img src="imagens/img_redes_albuns.png" alt="">
                             </div>
                             <div class="album">
                                 <div class="img_album"></div>
-                                <p class="alb_tit">Nome do Evento</p>
-                                <p>Local do Evento</p>
+                                <p class="alb_tit">Legenda</p>
+                                <p>Tags: Theo Axelrud, festa</p>                                
+                                <img src="imagens/img_redes_albuns.png" alt="">
                             </div>
                             <div class="album">
                                 <div class="img_album"></div>
-                                <p class="alb_tit">Nome do Evento</p>
-                                <p>Local do Evento</p>
+                                <p class="alb_tit">Legenda</p>
+                                <p>Tags: Theo Axelrud, festa</p>                                
+                                <img src="imagens/img_redes_albuns.png" alt="">
                             </div>
                             <div class="album">
                                 <div class="img_album"></div>
-                                <p class="alb_tit">Nome do Evento</p>
-                                <p>Local do Evento</p>
+                                <p class="alb_tit">Legenda</p>
+                                <p>Tags: Theo Axelrud, festa</p>                                
+                                <img src="imagens/img_redes_albuns.png" alt="">
                             </div>
                             <div class="album">
                                 <div class="img_album"></div>
-                                <p class="alb_tit">Nome do Evento</p>
-                                <p>Local do Evento</p>
+                                <p class="alb_tit">Legenda</p>
+                                <p>Tags: Theo Axelrud, festa</p>                                
+                                <img src="imagens/img_redes_albuns.png" alt="">
                             </div>
                             <div class="album">
                                 <div class="img_album"></div>
-                                <p class="alb_tit">Nome do Evento</p>
-                                <p>Local do Evento</p>
+                                <p class="alb_tit">Legenda</p>
+                                <p>Tags: Theo Axelrud, festa</p>                                
+                                <img src="imagens/img_redes_albuns.png" alt="">
                             </div>
                             <div class="album">
                                 <div class="img_album"></div>
-                                <p class="alb_tit">Nome do Evento</p>
-                                <p>Local do Evento</p>
+                                <p class="alb_tit">Legenda</p>
+                                <p>Tags: Theo Axelrud, festa</p>                                
+                                <img src="imagens/img_redes_albuns.png" alt="">
                             </div>
                             <div class="album">
                                 <div class="img_album"></div>
-                                <p class="alb_tit">Nome do Evento</p>
-                                <p>Local do Evento</p>
+                                <p class="alb_tit">Legenda</p>
+                                <p>Tags: Theo Axelrud, festa</p>                                
+                                <img src="imagens/img_redes_albuns.png" alt="">
                             </div>
                             <div class="album">
                                 <div class="img_album"></div>
-                                <p class="alb_tit">Nome do Evento</p>
-                                <p>Local do Evento</p>
+                                <p class="alb_tit">Legenda</p>
+                                <p>Tags: Theo Axelrud, festa</p>                                
+                                <img src="imagens/img_redes_albuns.png" alt="">
                             </div>
                             <div class="album">
                                 <div class="img_album"></div>
-                                <p class="alb_tit">Nome do Evento</p>
-                                <p>Local do Evento</p>
+                                <p class="alb_tit">Legenda</p>
+                                <p>Tags: Theo Axelrud, festa</p>                                
+                                <img src="imagens/img_redes_albuns.png" alt="">
                             </div>
                             <div class="album">
                                 <div class="img_album"></div>
-                                <p class="alb_tit">Nome do Evento</p>
-                                <p>Local do Evento</p>
+                                <p class="alb_tit">Legenda</p>
+                                <p>Tags: Theo Axelrud, festa</p>                                
+                                <img src="imagens/img_redes_albuns.png" alt="">
                             </div>
                             <div class="album">
                                 <div class="img_album"></div>
-                                <p class="alb_tit">Nome do Evento</p>
-                                <p>Local do Evento</p>
+                                <p class="alb_tit">Legenda</p>
+                                <p>Tags: Theo Axelrud, festa</p>                                
+                                <img src="imagens/img_redes_albuns.png" alt="">
                             </div>
                             <div class="album">
                                 <div class="img_album"></div>
-                                <p class="alb_tit">Nome do Evento</p>
-                                <p>Local do Evento</p>
+                                <p class="alb_tit">Legenda</p>
+                                <p>Tags: Theo Axelrud, festa</p>                                
+                                <img src="imagens/img_redes_albuns.png" alt="">
                             </div>
                         </div>
 
