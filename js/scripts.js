@@ -23,7 +23,11 @@ function SetBg(page) {
             $("#div_main_cultura").css('background-repeat', 'no-repeat');
             $("#div_main_cultura").css('background-position', '100% 0%');
             break;
-
+        case "viagem":
+            $("#div_main_cultura").css('background-image', 'url("imagens/img_back_viagem.png")');
+            $("#div_main_cultura").css('background-repeat', 'no-repeat');
+            $("#div_main_cultura").css('background-position', '100% 0%');
+            break;
         case "zoom":
             $("#div_main_zoom").css('background-image', 'url("imagens/img_familia.png")');
             $("#div_main_zoom").css('background-repeat', 'no-repeat');

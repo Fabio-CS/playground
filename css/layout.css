@@ -265,7 +265,7 @@ div:after, ol:after, form:after, ul:after, dl:after {
     text-align: center;
     font-weight: bold;
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     margin-bottom: 0;
 }
 #div_boxzoom p span{
@@ -331,6 +331,11 @@ div:after, ol:after, form:after, ul:after, dl:after {
 }
 .cultura_item.ativo .mais_info{
     background: url("../imagens/img_infos.png") no-repeat center center;
+}
+/*============== Viagem ==================*/
+#img_tit_assine{
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 /*============== Classes =================*/
 .legendaAnuncio{
