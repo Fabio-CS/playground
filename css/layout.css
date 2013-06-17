@@ -217,7 +217,6 @@ div:after, ol:after, form:after, ul:after, dl:after {
 
 #div_barra_rodape a {
     color: inherit;
-    text-decoration: none;
     margin-right: 3px;
     margin-left: 7px;
 }
@@ -256,7 +255,7 @@ div:after, ol:after, form:after, ul:after, dl:after {
     height: 270px;
     background-color: #ec008c;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 #div_fotozoom{
     margin: 0 auto;
@@ -276,7 +275,7 @@ div:after, ol:after, form:after, ul:after, dl:after {
     color: #000;
 }
 #div_direita .anuncio{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 /*============== Cultura Home =================*/
 .cultura_item{
@@ -411,7 +410,7 @@ div:after, ol:after, form:after, ul:after, dl:after {
 #div_boxhist{
     width: 250px;
     background-color: #898888;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 #div_boxhist ul{
   margin-bottom: 5px;
@@ -440,7 +439,7 @@ div:after, ol:after, form:after, ul:after, dl:after {
     width: 250px;
     height: 120px;
     background-color: rgba(255,255,255,0.7);
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 #box_pesq #pesquisa{
     width: 210px;
@@ -501,7 +500,7 @@ div:after, ol:after, form:after, ul:after, dl:after {
     margin-bottom: 10px;
 }
 #div_noticias h2{
-    margin: 53px auto 31px;
+    margin: 41px auto 31px;
     color: #898888;
 }
 .div_alb_detalhe .album{
@@ -515,7 +514,7 @@ div:after, ol:after, form:after, ul:after, dl:after {
     width: 980px;
 }
 #div_main_gastronomia #div_esquerda{
-    width: 681px;
+    width: 700px;
     float: left;
 }
 #div_main_gastronomia #div_conteudo{
@@ -526,9 +525,6 @@ div:after, ol:after, form:after, ul:after, dl:after {
     height: 86px;
 }
 #noticia_container{
-    width: 715px;
-    position: relative;
-    left: -20px;
 }
 #noticia_container #seta_dir, #noticia_container #seta_esq{
     float: left;
@@ -539,7 +535,7 @@ div:after, ol:after, form:after, ul:after, dl:after {
     float: right;
 }
 #noticia_container #seta_esq{
-    margin-right: 0;
+    margin-left: -12px;
 }
 #noticia_container #seta_dir, #seta_esq img{
     margin-top: 120px;
@@ -548,8 +544,97 @@ div:after, ol:after, form:after, ul:after, dl:after {
     background-color: #ecebeb;
     width: 166px;
     float: left;
-    margin-right: 7px;
+    margin-right: 6px;
     padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+#div_agenda_index{
+    width: 637px;
+    height: 206px;
+    padding: 22px;
+    background-color: #888888;
+}
+#div_img_agenda{
+   margin-right: 45px;
+   float: left;
+}
+.agenda-item p{
+    margin-bottom: 0px;
+}
+.agenda-item {
+    color: #fff;
+    float: left;
+    margin-bottom: 15px;
+}
+.agenda-data{
+    background-color: #ec008c;
+    text-align: center;
+    width: 58px;
+    height: 58px;
+    float: left;
+    margin-right: 13px;
+}
+.agenda-data p.agenda-dia{
+    font-size: 38px;
+    line-height: 1em;
+}
+.agenda-data p.agenda-mes{
+    font-size: 15px;
+}
+.agenda-icone{
+    margin-right: 50px;
+    float: left;
+}
+.agenda-info{
+    float: left;
+    margin-top: -4px;
+}
+.agenda-info p{
+    font-size: 18px;
+}
+#div_main_index #div_direita .anuncio{
+    margin-bottom: 20px;
+}
+#div_main_index #div_direita #div_boxzoom{
+    margin-bottom: 20px;
+}
+#div_newsletter{
+    background-color: #888888;
+    width: 159px;
+    float:right;
+    padding: 8px;
+    margin-top: 10px;
+}
+#div_newsletter p{
+    color: #000;
+    float:left;
+    margin-bottom: 10px;
+    margin-right: 12px;
+}
+#div_newsletter p a{
+    text-decoration: none;
+    color: #000;
+}
+#div_newsletter p a:hover{
+    text-decoration: underline;
+}
+#ico_news{
+    float:left;
+    margin-right: 10px;
+}
+#div_newsletter h5{
+    float: left;
+    color: #fff;
+    margin-bottom: 0px;
+    margin-right: 25px;
+}
+#div_form_newsletter{
+    display: none;
+    text-align: center;
+}
+#email{
+    width: 150px;
+    margin-bottom: 10px;
 }
 .last{
     margin-right: 0;
@@ -591,24 +676,51 @@ div:after, ol:after, form:after, ul:after, dl:after {
     color: #000;
 }
 #recomenda{
-    width: 220px;
+    width: 250px;
     background-color: #ecebeb;
-    padding: 15px
+    padding: 15px;
+    box-sizing: border-box;
 }
 #rec_conteudo{
-    width: 200px;
     margin: 0 auto;
     text-align: center;
 }
-#recomenda .recomenda{
-    
-}
 #recomenda .img_prod{
     margin-top: 5px;
+    display: block;
+    margin: 0 auto;
 }
 #recomenda h3{
     color: #898888;
     text-align: center;
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: 25px;
+}
+#img_btn_recomenda{
+    margin-bottom: 20px;
+}
+#div_destaque_home{
+    width: 683px;
+    height: 250px;
+    background-color: #ec008c;
+    margin-bottom: 20px;
+}
+.textoDestaque{
+    margin: 20px 5px 10px 20px;
+    float: left;
+    width: 260px;
+    color: #fff;
+}
+.imagemDestaque{
+    width: 389px;
+    float: right;
+}
+.textoDestaque h1, .textoDestaque h3{
+    color: #fff;
+}
+.textoDestaque p{
+    font-size: 18px;
+}
+#div_main_index #div_esquerda{
+    width: 683px;
 }

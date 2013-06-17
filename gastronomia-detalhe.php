@@ -114,7 +114,7 @@
                                 <img class="recomenda" src="imagens/img_recomenda.png" alt="">
                                 <img class="img_prod" src="imagens/img_potinho.png" alt="">
                                 <h3>POTINHOS BABY GOURMET</h3>
-                                <img src="imagens/img_ir_site.png" alt="">
+                                <img id="img_btn_recomenda" src="imagens/img_ir_site.png" alt="">
                             </div>
                         </div>
 
