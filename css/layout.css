@@ -692,8 +692,10 @@ div:after, ol:after, form:after, ul:after, dl:after {
     margin: 0 auto;
 }
 #recomenda h3{
-    color: #898888;
+    color: #888888;
     text-align: center;
+    font-size: 18px;
+    margin-top: 25px;
 }
 
 #artigo_saude{
