@@ -12,9 +12,9 @@
     </head>
     <body>
         <div id="div_main_container">
-            <div id="main_gastronomia">
+            <div id="div_main_gastronomia">
                 <?php include 'topo.php'; ?>
-                <div id="conteudo">
+                <div id="div_conteudo">
 
                     <div id="div_esquerda">
                         <div id="gastr_main_txt">
