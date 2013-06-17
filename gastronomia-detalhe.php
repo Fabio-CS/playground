@@ -15,13 +15,11 @@
             <div id="div_main_gastronomia">
                 <?php include 'topo.php'; ?>
                 <div id="div_conteudo">
-
                     <div id="div_esquerda">
                         <div id="gastr_main_txt">
                             <img src="imagens/img_mae_bebe.png" alt="">
                             <h1>Comida feita  em casa para bebês</h1>
                             <p class="label">Por Fernando Lemos | Foto Folia</p>
-
                             <div id="gast_text">
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -52,9 +50,8 @@
                         </div>
                         <div id="div_noticias">
                             <h2 class="gast_detalhe">Leia Mais</h2>
-
                             <div id="noticia_container">
-                                <div id="seta_esq"><img src="imagens/img_arrow_left.png" alt=""></div>
+                                <div id="seta_esq"><a href="#"><img src="imagens/img_arrow_left.png" alt=""></a></div>
                                 <div class="noticia_item">
                                     <img src="imagens/img_mae_menina.png" alt="">
                                     <h6>GASTRONOMIA</h6>
@@ -70,20 +67,19 @@
                                     <h6>GASTRONOMIA</h6>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                                 </div>
-                                <div class="noticia_item">
+                                <div class="noticia_item last">
                                     <img src="imagens/img_mae_menina.png" alt="">
                                     <h6>GASTRONOMIA</h6>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                                 </div>
-                                <div id="seta_dir"><img src="imagens/img_arrow_right.png" alt=""></div>
+                                <div id="seta_dir"><a href="#"><img src="imagens/img_arrow_right.png" alt=""></a></div>
                             </div>
 
                         </div>
                     </div>
-
                     <div id="div_direita">
                         <div id="box_pesq">
-                            <form action="" method="">
+                            <form action="#" method="get">
                                 <input type="text" id="pesquisa" name="pesquisa"/>
                                 <input type="submit" id="buscar" name="buscar" value="BUSCAR"/>
                             </form>
@@ -99,6 +95,14 @@
                                     </ul>
                                 </li>
                             </ul>
+                        </div>
+                        <div id="div_boxzoom">
+                            <div id="div_fotozoom">
+                                <a href="zoom-detalhe.php"><img src="imagens/img_zoom.png"></a><br>
+                                <a href="zoom-detalhe.php"><img id="img_tit_zoom" src="imagens/img_zoom_tit.png"></a>
+                            </div>
+                            <p>Festa de Aniversário do Theo</p>
+                            <p><span>Grêmio Náutico União</span></p>
                         </div>
                         <div class="anuncio250x250 anuncio">
                             <p><span>PUB <br> 250 x 250px</span></p>
@@ -118,5 +122,6 @@
                     <?php include 'rodape.php'; ?>
                 </div>
             </div>
+        </div>
     </body>
 </html>
