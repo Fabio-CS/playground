@@ -606,3 +606,15 @@ div:after, ol:after, form:after, ul:after, dl:after {
     margin: auto;
     color: #5f5f5f;
 }
+
+#gastr_main_txt h1{
+    margin-bottom: 10px;
+}
+
+#gastr_main_txt .label{
+    color: #000;
+}
+
+#gast_text p{
+    font-size: 1.4em;
+}
