@@ -618,3 +618,41 @@ div:after, ol:after, form:after, ul:after, dl:after {
 #gast_text p{
     font-size: 1.4em;
 }
+
+#gast_text a{
+    color: #ec008c;
+    font-weight: bold;
+}
+
+#div_noticias .gast_detalhe{
+    color: #000;
+}
+
+#recomenda{
+    width: 250px;
+    background-color: #ecebeb;
+    position: relative;
+    left: 5px;
+}
+
+#rec_conteudo{
+    position: relative;
+    left: 25px;
+    top: 15px;
+}
+#recomenda .recomenda{
+    position: inherit;
+    left: 45px;
+}
+
+#recomenda .img_prod{
+    position: inherit;
+    left: 15px;
+}
+
+#recomenda h3{
+    color: #898888;
+    position: relative;
+    text-align: center;
+    left: -30px;
+}

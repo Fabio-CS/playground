@@ -47,10 +47,11 @@
                                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                 </p>
+                                <p>Visite nosso site: <a href="#">www.potinhosbebes.com.br</a></p>
                             </div>
                         </div>
                         <div id="div_noticias">
-                            <h2>Leia Mais</h2>
+                            <h2 class="gast_detalhe">Leia Mais</h2>
 
                             <div id="noticia_container">
                                 <div id="seta_esq"><img src="imagens/img_arrow_left.png" alt=""></div>
@@ -102,6 +103,17 @@
                         <div class="anuncio250x250 anuncio">
                             <p><span>PUB <br> 250 x 250px</span></p>
                         </div>
+
+                        <div id="recomenda">
+                            <div id="rec_conteudo">
+                                <img src="imagens/img_logo_playground_small.png" alt="">
+                                <img class="recomenda" src="imagens/img_recomenda.png" alt="">
+                                <img class="img_prod" src="imagens/img_potinho.png" alt="">
+                                <h3>POTINHOS BABY GOURMET</h3>
+                                <H2>IR PARA O SITE</H2>
+                            </div>
+                        </div>
+
                     </div>
                     <?php include 'rodape.php'; ?>
                 </div>
