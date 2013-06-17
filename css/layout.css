@@ -416,6 +416,7 @@ div:after, ol:after, form:after, ul:after, dl:after {
 #div_boxhist ul{
   margin-bottom: 5px;
 }
+
 #historico a{
     text-decoration: none;
     color: #fff;
@@ -603,4 +604,84 @@ div:after, ol:after, form:after, ul:after, dl:after {
 #recomenda h3{
     color: #898888;
     text-align: center;
+}
+
+#artigo_saude{
+    background-color: #ec008c;
+}
+
+#artigo_saude h1{
+    color: #000;
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#artigo_saude h2{
+    color: #fff;
+    font-size: 1.8em;
+}
+
+#artigo_saude h3{
+    color: #fff;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+#artigo_saude h4{
+    color: #fff;
+    font-size: 1.1em;
+    font-style: italic;
+    font-weight: normal;
+}
+
+#artigo_saude p{
+    color: #fff;
+    font-size: 1em;
+}
+
+#box_titulo{
+    float: left;
+    margin-left: 20px;
+}
+
+#box_saude{
+    float: left;
+    margin-top: 15px;
+    margin-left: 14px;
+}
+
+#box_texto img, #box_texto h2, #box_texto p{
+    margin-left: 10px;
+}
+
+#box_texto img{
+    margin-top: 10px;
+    float: left;
+}
+
+#img_participar{
+    width: 126px;
+    margin: 25px auto 25px;
+}
+
+#box_texto h2{
+    float: left;
+    margin-top: 20px;
+}
+
+.artigo_saude_menor{
+    width: 660px;
+    background-color: #ecebeb;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+.artigo_saude_menor h6{
+   color: #898888;
+   margin-left: 15px;
+}
+
+.artigo_saude_menor p{
+    margin-left: 15px;
 }
