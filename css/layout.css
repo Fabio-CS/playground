@@ -589,9 +589,8 @@ div:after, ol:after, form:after, ul:after, dl:after {
     background-color: #ecebeb;
 }
 #rec_conteudo{
-    position: relative;
-    left: 25px;
-    top: 15px;
+    width: 200px;
+    margin: 0 auto;
 }
 #recomenda .recomenda{
     position: inherit;
@@ -603,7 +602,5 @@ div:after, ol:after, form:after, ul:after, dl:after {
 }
 #recomenda h3{
     color: #898888;
-    position: relative;
     text-align: center;
-    left: -30px;
 }
