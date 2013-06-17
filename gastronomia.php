@@ -12,21 +12,17 @@
     </head>
     <body>
         <div id="div_main_container">
-            <div id="main_gastronomia">
-                <?php include 'topo.php'; ?>
-                <div id="conteudo">
-
+            <div id="div_main_gastronomia">
+                <?php include 'topo.php';?>
+                <div id="div_conteudo">
                     <div id="div_esquerda">
                         <h1>Gastronomia</h1>
-
                         <p class="legendaAnuncio">Patrocinado</p>
                         <div class="anuncio660x86 anuncio">
                             <p><span>681 x 86 px</span></p>
                         </div>
-
                         <div id="div_noticias">
                             <h2>Últimas notícias</h2>
-                            
                             <div id="noticia_container">
                                 <div id="seta_esq"><img src="imagens/img_arrow_left.png" alt=""></div>
                                 <div class="noticia_item">
@@ -51,13 +47,11 @@
                                 </div>
                                 <div id="seta_dir"><img src="imagens/img_arrow_right.png" alt=""></div>
                             </div>
-                            
                         </div>
                     </div>
-
                     <div id="div_direita">
                         <div id="box_pesq">
-                            <form action="" method="">
+                            <form action="#" method="get">
                                 <input type="text" id="pesquisa" name="pesquisa"/>
                                 <input type="submit" id="buscar" name="buscar" value="BUSCAR"/>
                             </form>
@@ -81,5 +75,6 @@
                     <?php include 'rodape.php'; ?>
                 </div>
             </div>
+        </div>
     </body>
 </html>

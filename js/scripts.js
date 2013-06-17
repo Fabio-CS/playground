@@ -41,9 +41,9 @@ function SetBg(page) {
             break;
 
         case "gastronomia":
-            $("#main_gastronomia").css('background-image', 'url("imagens/img_back_gastro.png")');
-            $("#main_gastronomia").css('background-repeat', 'no-repeat');
-            $("#main_gastronomia").css('background-position', '100% 0%');
+            $("#div_main_gastronomia").css('background-image', 'url("imagens/img_back_gastro.png")');
+            $("#div_main_gastronomia").css('background-repeat', 'no-repeat');
+            $("#div_main_gastronomia").css('background-position', '100% 0%');
             break;
             //adicionar os outros cases prevendo as paginas que acionarao essa funcao e setando a imagem de fundo:
 
