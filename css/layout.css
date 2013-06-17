@@ -269,7 +269,7 @@ div:after, ol:after, form:after, ul:after, dl:after {
     text-align: center;
     font-weight: bold;
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     margin-bottom: 0;
 }
 #div_boxzoom p span{
@@ -335,6 +335,11 @@ div:after, ol:after, form:after, ul:after, dl:after {
 }
 .cultura_item.ativo .mais_info{
     background: url("../imagens/img_infos.png") no-repeat center center;
+}
+/*============== Viagem ==================*/
+#img_tit_assine{
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 /*============== Classes =================*/
 .legendaAnuncio{
@@ -415,17 +420,13 @@ div:after, ol:after, form:after, ul:after, dl:after {
 }
 
 #div_boxhist{
-    position:  relative;
-    left: 5px;
     width: 250px;
-    height: 240px;
     background-color: #898888;
     margin-bottom: 10px;
 }
 
-#div_boxhist #historico{
-    position: absolute;
-    /*margin-top: 60px;*/
+#div_boxhist ul{
+  margin-bottom: 5px;
 }
 
 #historico a{
@@ -453,10 +454,9 @@ div:after, ol:after, form:after, ul:after, dl:after {
 }
 
 #box_pesq{
-    width: 255px;
+    width: 250px;
     height: 120px;
     background-color: rgba(255,255,255,0.7);
-    position: relative;
     margin-bottom: 15px;
 }
 
@@ -528,7 +528,7 @@ div:after, ol:after, form:after, ul:after, dl:after {
 }
 
 #div_noticias h2{
-    margin-top: 50px;
+    margin: 53px auto 31px;
     color: #898888;
 }
 
@@ -540,18 +540,17 @@ div:after, ol:after, form:after, ul:after, dl:after {
 .div_alb_detalhe .alb_tit{
     margin-bottom: 1px;
 }
-
-#main_gastronomia #conteudo{
-    position: relative;
-    top: -50px;
+#div_main_gastronomia{
+    width: 980px;
 }
-
-#main_gastronomia .anuncio250x250{
-    position: relative;
-    left: 5px;
+#div_main_gastronomia #div_esquerda{
+    width: 681px;
+    float: left;
 }
-
-#main_gastronomia .anuncio660x86{
+#div_main_gastronomia #div_conteudo{
+    float: left;
+}
+#div_main_gastronomia .anuncio660x86{
     width: 681px;
     height: 86px;
 }

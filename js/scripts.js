@@ -23,7 +23,11 @@ function SetBg(page) {
             $("#div_main_cultura").css('background-repeat', 'no-repeat');
             $("#div_main_cultura").css('background-position', '100% 0%');
             break;
-
+        case "viagem":
+            $("#div_main_cultura").css('background-image', 'url("imagens/img_back_viagem.png")');
+            $("#div_main_cultura").css('background-repeat', 'no-repeat');
+            $("#div_main_cultura").css('background-position', '100% 0%');
+            break;
         case "zoom":
             $("#div_main_zoom").css('background-image', 'url("imagens/img_familia.png")');
             $("#div_main_zoom").css('background-repeat', 'no-repeat');
@@ -37,9 +41,9 @@ function SetBg(page) {
             break;
 
         case "gastronomia":
-            $("#main_gastronomia").css('background-image', 'url("imagens/img_back_gastro.png")');
-            $("#main_gastronomia").css('background-repeat', 'no-repeat');
-            $("#main_gastronomia").css('background-position', '100% 0%');
+            $("#div_main_gastronomia").css('background-image', 'url("imagens/img_back_gastro.png")');
+            $("#div_main_gastronomia").css('background-repeat', 'no-repeat');
+            $("#div_main_gastronomia").css('background-position', '100% 0%');
             break;
             //adicionar os outros cases prevendo as paginas que acionarao essa funcao e setando a imagem de fundo:
 
