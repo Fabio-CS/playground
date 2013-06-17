@@ -24,7 +24,7 @@
                         <div id="div_noticias">
                             <h2>Últimas notícias</h2>
                             <div id="noticia_container">
-                                <div id="seta_esq"><img src="imagens/img_arrow_left.png" alt=""></div>
+                                <div id="seta_esq"><a href="#"><img src="imagens/img_arrow_left.png" alt=""></a></div>
                                 <div class="noticia_item">
                                     <img src="imagens/img_mae_menina.png" alt="">
                                     <h6>GASTRONOMIA</h6>
@@ -40,12 +40,12 @@
                                     <h6>GASTRONOMIA</h6>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                                 </div>
-                                <div class="noticia_item">
+                                <div class="noticia_item last">
                                     <img src="imagens/img_mae_menina.png" alt="">
                                     <h6>GASTRONOMIA</h6>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                                 </div>
-                                <div id="seta_dir"><img src="imagens/img_arrow_right.png" alt=""></div>
+                                <div id="seta_dir"><a href="#"><img src="imagens/img_arrow_right.png" alt=""></a></div>
                             </div>
                         </div>
                     </div>
