@@ -104,8 +104,8 @@
                     <div id="div_direita">
                         <div id="div_boxzoom">
                             <div id="div_fotozoom">
-                                <a href="#"><img src="imagens/img_zoom.png"></a><br>
-                                <a href="#"><img id="img_tit_zoom" src="imagens/img_zoom_tit.png"></a>
+                                <a href="zoom-detalhe.php"><img src="imagens/img_zoom.png"></a><br>
+                                <a href="zoom-detalhe.php"><img id="img_tit_zoom" src="imagens/img_zoom_tit.png"></a>
                             </div>
                             <p>Festa de Aniversário do Theo</p>
                             <p><span>Grêmio Náutico União</span></p>

@@ -28,6 +28,13 @@ function SetBg(page) {
             $("#div_main_zoom").css('background-image', 'url("imagens/img_familia.png")');
             $("#div_main_zoom").css('background-repeat', 'no-repeat');
             $("#div_main_zoom").css('background-position', '100% 2.2%');
+            break;
+
+        case "zoom_det":
+            $("#div_main_zoom").css('background-image', 'url("imagens/img_familia.png")');
+            $("#div_main_zoom").css('background-repeat', 'no-repeat');
+            $("#div_main_zoom").css('background-position', '100% 1.56%');
+            break;
             //adicionar os outros cases prevendo as paginas que acionarao essa funcao e setando a imagem de fundo:
 
         default :
