@@ -20,8 +20,8 @@
                         <h1>Saúde</h1>
 
                         <p class="legendaAnuncio">Patrocinado</p>
-                        <div class="anuncio660x86 anuncio">
-                            <p><span>660 x 86 px</span></p>
+                        <div class="anuncio660x76 anuncio">
+                            <p><span>660 x 76 px</span></p>
                         </div>
 
                         <div id="artigo_saude">
@@ -59,7 +59,7 @@
 
                     <div id="div_direita">
                         <div id="box_pesq">
-                            <form action="#" method="get">
+                            <form action="saude-busca.php" method="get">
                                 <input type="text" id="pesquisa" name="pesquisa"/>
                                 <input type="submit" id="buscar" name="buscar" value="BUSCAR"/>
                             </form>
