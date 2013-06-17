@@ -311,11 +311,9 @@ div:after, ol:after, form:after, ul:after, dl:after {
     color: #fff;
     margin-bottom: 10px;
 }
-
 .cultura_item a{
     text-decoration: none;
 }
-
 .cultura_item p{
     line-height: 1.5em;
     margin-bottom: 21px;
@@ -351,13 +349,11 @@ div:after, ol:after, form:after, ul:after, dl:after {
     height: 86px;
     margin-bottom: 16px;
 }
-
 .anuncio681x78{
     width: 681px;
     height: 78px;
     margin-bottom: 35px;
 }
-
 .legendaFoto{
     margin-top: 17px;
     color: #000;
@@ -367,12 +363,10 @@ div:after, ol:after, form:after, ul:after, dl:after {
     width: 250px;
     height: 250px;
 }
-
 #div_main_zoom .anuncio250x250{
     position: relative;
     left: 5px;
 }
-
 .anuncio250x125{
     width: 250px;
     height: 125px;
@@ -390,17 +384,14 @@ div:after, ol:after, form:after, ul:after, dl:after {
     display: table-cell;
     vertical-align: middle;
 }
-
 .box_cultura{
     width: 660px;
     height: 210px;
     position: absolute;
 }
-
 .destaq{
     background-color: #ec068f;
 }
-
 .box_cultura .foto{
     background-color: #ecebeb;
     width: 280px;
@@ -409,7 +400,6 @@ div:after, ol:after, form:after, ul:after, dl:after {
     left: 13px;
     top: 12px;
 }
-
 .box_cultura .texto{
     width: 335px;
     height: 180px;
@@ -418,48 +408,40 @@ div:after, ol:after, form:after, ul:after, dl:after {
     right: 10px;
     top: 12px;
 }
-
 #div_boxhist{
     width: 250px;
     background-color: #898888;
     margin-bottom: 10px;
 }
-
 #div_boxhist ul{
   margin-bottom: 5px;
 }
-
 #historico a{
     text-decoration: none;
     color: #fff;
 }
-
 .tit_album{
     position: relative;
     top: 10px;
     left: 10px;
     margin-bottom: 15px;
 }
-
 #div_boxhist li{
     color:#fff;
     list-style-image: url('../imagens/img_arrow.png');
     list-style-type: square;
     margin-top: 5px;
 }
-
 #div_boxhist h5, h6{
     color: #fff;
     margin-bottom: 10px;
 }
-
 #box_pesq{
     width: 250px;
     height: 120px;
     background-color: rgba(255,255,255,0.7);
     margin-bottom: 15px;
 }
-
 #box_pesq #pesquisa{
     width: 210px;
     height: 45px;
@@ -472,7 +454,6 @@ div:after, ol:after, form:after, ul:after, dl:after {
     padding-left: 15px;
     font-size: 1.2em;
 }
-
 #box_pesq #buscar{
     width: 90px;
     height: 30px;
@@ -484,21 +465,17 @@ div:after, ol:after, form:after, ul:after, dl:after {
     border: 0px;
     font-weight: bold;
 }
-
 #colecao_albums{
     width: 685px;
     height: 1000px;
 }
-
 #descr_album{
     margin-bottom: 80px;
 }
-
 #descr_album p{
     margin-bottom: 5px;
     color: #000;
 }
-
 #colecao_albums h2{
     color: #898888;
 }
@@ -509,34 +486,28 @@ div:after, ol:after, form:after, ul:after, dl:after {
     margin-right: 10px;
     margin-bottom: 30px;
 }
-
 .album .img_album{
     width: 160px;
     height: 160px;
     background-color: #ecebeb;
 }
-
 .album .alb_tit{
     color: #000;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
 #div_main_zoom h1{
     margin-top: 0px;
     margin-bottom: 10px;
 }
-
 #div_noticias h2{
     margin: 53px auto 31px;
     color: #898888;
 }
-
 .div_alb_detalhe .album{
     height: 275px;
     margin-bottom: 50px;
 }
-
 .div_alb_detalhe .alb_tit{
     margin-bottom: 1px;
 }
@@ -554,27 +525,22 @@ div:after, ol:after, form:after, ul:after, dl:after {
     width: 681px;
     height: 86px;
 }
-
 #noticia_container{
     width: 715px;
     position: relative;
     left: -20px;
 }
-
 #noticia_container #seta_dir, #seta_esq{
     float: left;
     height: 250px;
     width: 20px;
 }
-
 #noticia_container #seta_esq{
     margin-right: 0;
 }
-
 #noticia_container #seta_dir, #seta_esq img{
     margin-top: 120px;
 }
-
 .noticia_item{
     background-color: #ecebeb;
     width: 160px;
@@ -582,12 +548,10 @@ div:after, ol:after, form:after, ul:after, dl:after {
     margin-right: 8px;
     padding-bottom: 20px;
 }
-
 .noticia_item img{
     margin-top: 10px;
     margin-left: 5px;
 }
-
 .noticia_item h6{
     background-color: #898888;
     color: #fff;
@@ -599,41 +563,33 @@ div:after, ol:after, form:after, ul:after, dl:after {
     font-size: 1.4em;
     margin-bottom: 15px;
 }
-
 .noticia_item p{
     width: 140px;
     margin: auto;
     color: #5f5f5f;
 }
-
 #gastr_main_txt h1{
     margin-bottom: 10px;
 }
-
 #gastr_main_txt .label{
     color: #000;
 }
-
 #gast_text p{
     font-size: 1.4em;
 }
-
 #gast_text a{
     color: #ec008c;
     font-weight: bold;
 }
-
 #div_noticias .gast_detalhe{
     color: #000;
 }
-
 #recomenda{
     width: 250px;
     background-color: #ecebeb;
     position: relative;
     left: 5px;
 }
-
 #rec_conteudo{
     position: relative;
     left: 25px;
@@ -643,12 +599,10 @@ div:after, ol:after, form:after, ul:after, dl:after {
     position: inherit;
     left: 45px;
 }
-
 #recomenda .img_prod{
     position: inherit;
     left: 15px;
 }
-
 #recomenda h3{
     color: #898888;
     position: relative;
