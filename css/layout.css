@@ -846,3 +846,12 @@ div:after, ol:after, form:after, ul:after, dl:after {
     color: #898888;
     margin-bottom: 30px;
 }
+.parceiro{
+    width: 644px;
+    height: 105px;
+    padding: 8px;
+    background-color: #ecebeb;
+}
+.patrocinado{
+    background-color: #ec008c;
+}

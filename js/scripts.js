@@ -48,13 +48,16 @@ function SetBg(page) {
             $("#div_main_gastronomia").css('background-repeat', 'no-repeat');
             $("#div_main_gastronomia").css('background-position', '100% 0%');
             break;
-
+        case "guia":
+            $("#div_main_guia").css('background-image', 'url("imagens/img_back_servicos.png")');
+            $("#div_main_guia").css('background-repeat', 'no-repeat');
+            $("#div_main_guia").css('background-position', '100% 0%');
+            break;
         case "saude":
             $("#div_main_saude").css('background-image', 'url("imagens/img_back_saude.png")');
             $("#div_main_saude").css('background-repeat', 'no-repeat');
             $("#div_main_saude").css('background-position', '100% 2%');
             //adicionar os outros cases prevendo as paginas que acionarao essa funcao e setando a imagem de fundo:
-
         default :
             $("#main_container").css('background-image', '');
     }
