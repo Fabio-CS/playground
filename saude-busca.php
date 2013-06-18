@@ -15,26 +15,22 @@
             <div id="div_main_saude">
                 <?php include 'topo.php'; ?>
                 <div id="div_conteudo">
-
                     <div id="div_esquerda">
                         <h1>Saúde</h1>
-
                         <p class="legendaAnuncio">Patrocinado</p>
                         <div class="anuncio660x86 anuncio">
                             <p><span>660 x 86 px</span></p>
                         </div>
-
                         <h2 id="result_h2">Resultados (3)</h2>
-
                         <div class="artigo_saude_result">
                             <div>
-                                <div id="result_img"><img src="imagens/img_coracao.png" alt=""></div>
-                                <div id="result_titulo">
-                                    <h3>Topico 1</h3>
+                                <div class="result_img"><img src="imagens/img_coracao.png" alt=""></div>
+                                <div class="result_titulo">
+                                    <h3>Tópico 1</h3>
                                 </div>
                                 <div class="clear"></div>
-                                <div id="result_det">
-                                    <ul id="result_det_ul">
+                                <div class="result_det">
+                                    <ul class="result_det_ul">
                                         <li>
                                             <span class="result_saude_p">Iniciado por <a href="#">Cristine</a> </span>
                                         </li>
@@ -48,24 +44,21 @@
                                             <span class="result_saude_p">Ultima vez ativo há 5 minutos</span>
                                         </li>
                                     </ul>
-                                    <div id="img_participar">
+                                    <div class="img_participar">
                                         <img src="imagens/btn_participar_menor.png" alt="">
                                     </div>
                                 </div>
-                                
-                                
                             </div>
                         </div>
-                        
                         <div class="artigo_saude_result">
                             <div>
-                                <div id="result_img"><img src="imagens/img_coracao.png" alt=""></div>
-                                <div id="result_titulo">
-                                    <h3>Topico 2</h3>
+                                <div class="result_img"><img src="imagens/img_coracao.png" alt=""></div>
+                                <div class="result_titulo">
+                                    <h3>Tópico 2</h3>
                                 </div>
                                 <div class="clear"></div>
-                                <div id="result_det">
-                                    <ul id="result_det_ul">
+                                <div class="result_det">
+                                    <ul class="result_det_ul">
                                         <li>
                                             <span class="result_saude_p">Iniciado por <a href="#">Cristine</a> </span>
                                         </li>
@@ -79,24 +72,21 @@
                                             <span class="result_saude_p">Ultima vez ativo há 5 minutos</span>
                                         </li>
                                     </ul>
-                                    <div id="img_participar">
+                                    <div class="img_participar">
                                         <img src="imagens/btn_participar_menor.png" alt="">
                                     </div>
                                 </div>
-                                
-                                
                             </div>
                         </div>
-                        
                         <div class="artigo_saude_result">
                             <div>
-                                <div id="result_img"><img src="imagens/img_coracao.png" alt=""></div>
-                                <div id="result_titulo">
-                                    <h3>Topico 3</h3>
+                                <div class="result_img"><img src="imagens/img_coracao.png" alt=""></div>
+                                <div class="result_titulo">
+                                    <h3>Tópico 3</h3>
                                 </div>
                                 <div class="clear"></div>
-                                <div id="result_det">
-                                    <ul id="result_det_ul">
+                                <div class="result_det">
+                                    <ul class="result_det_ul">
                                         <li>
                                             <span class="result_saude_p">Iniciado por <a href="#">Cristine</a> </span>
                                         </li>
@@ -110,17 +100,13 @@
                                             <span class="result_saude_p">Ultima vez ativo há 5 minutos</span>
                                         </li>
                                     </ul>
-                                    <div id="img_participar">
+                                    <div class="img_participar">
                                         <img src="imagens/btn_participar_menor.png" alt="">
                                     </div>
                                 </div>
-                                
-                                
                             </div>
                         </div>
-
                     </div>
-
                     <div id="div_direita">
                         <div id="box_pesq">
                             <form action="saude-busca.php" method="get">
@@ -151,8 +137,6 @@
                             </div>
                         </div>
                     </div>
-
-
                 </div>
                 <?php include 'rodape.php'; ?>
             </div>
