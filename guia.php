@@ -17,11 +17,162 @@
                 <div id="div_conteudo">
                     <div id="div_esquerda">
                         <h1>Guia de fornecedores e serviços</h1>
+                        <p><b>Organizadores de festas infantis - 7 resultados</b></p>
                         <p class="legendaAnuncio">Patrocinado</p>
-                        <div class="parceiro patrocinado">
-                            
+                        <div id="container_patrocinados">
+                            <div class="parceiro patrocinado">
+                                <div class="logo_parceiro">
+                                    <img src="imagens/img_logo_millenium.png">
+                                </div>
+                                <div class="info_parceiro">
+                                    <h4>Millenium Equity</h4>
+                                    <p><b>Organizador de festas infantis / Agência de comunicação</b></p>
+                                    <p>
+                                        Endereço: Rua Felipe Neri 419 - Sala 201<br>
+                                        Telefones: (51) 2103-9478
+                                    </p>
+                                    <p><a href="www.milleniumonline.biz">www.milleniumonline.biz</a></p>
+
+                                    <div class="icones_midias">
+                                        <a href="#" class="videos_parceiro"></a>
+                                        <a href="#" class="fotos_parceiro"></a>
+                                    </div>
+                                </div>
+                                <div class="desconto_parceiro">
+                                    <h6>Desconto para assinantes</h6>
+                                    <h1>-20%</h1>
+                                </div>
+                            </div>
                         </div>
-                        
+                        <div class="parceiro">
+                                <div class="logo_parceiro">
+                                    <img src="imagens/img_logo_millenium.png">
+                                </div>
+                                <div class="info_parceiro">
+                                    <h4>Millenium Equity</h4>
+                                    <p><b>Organizador de festas infantis / Agência de comunicação</b></p>
+                                    <p>
+                                        Endereço: Rua Felipe Neri 419 - Sala 201<br>
+                                        Telefones: (51) 2103-9478
+                                    </p>
+                                    <p><a href="www.milleniumonline.biz">www.milleniumonline.biz</a></p>
+                                </div>
+                                <div class="desconto_parceiro">
+                                    <h6>Desconto para assinantes</h6>
+                                    <h1>-20%</h1>
+                                </div>
+                        </div>
+                        <div class="parceiro">
+                                <div class="logo_parceiro">
+                                    <img src="imagens/img_logo_millenium.png">
+                                </div>
+                                <div class="info_parceiro">
+                                    <h4>Millenium Equity</h4>
+                                    <p><b>Organizador de festas infantis / Agência de comunicação</b></p>
+                                    <p>
+                                        Endereço: Rua Felipe Neri 419 - Sala 201<br>
+                                        Telefones: (51) 2103-9478
+                                    </p>
+                                    <p><a href="www.milleniumonline.biz">www.milleniumonline.biz</a></p>
+
+                                    <div class="icones_midias">
+                                        <a href="#" class="videos_parceiro"></a>
+                                        <a href="#" class="fotos_parceiro"></a>
+                                    </div>
+                                </div>
+                                <div class="desconto_parceiro">
+                                    <h6>Desconto para assinantes</h6>
+                                    <h1>-20%</h1>
+                                </div>
+                        </div>
+                        <div class="parceiro">
+                                <div class="logo_parceiro">
+                                    <img src="imagens/img_logo_millenium.png">
+                                </div>
+                                <div class="info_parceiro">
+                                    <h4>Millenium Equity</h4>
+                                    <p><b>Organizador de festas infantis / Agência de comunicação</b></p>
+                                    <p>
+                                        Endereço: Rua Felipe Neri 419 - Sala 201<br>
+                                        Telefones: (51) 2103-9478
+                                    </p>
+                                    <p><a href="www.milleniumonline.biz">www.milleniumonline.biz</a></p>
+                                </div>
+                                <div class="desconto_parceiro">                                    
+                                </div>
+                        </div>
+                        <div class="parceiro">
+                                <div class="logo_parceiro">
+                                    <img src="imagens/img_logo_millenium.png">
+                                </div>
+                                <div class="info_parceiro">
+                                    <h4>Millenium Equity</h4>
+                                    <p><b>Organizador de festas infantis / Agência de comunicação</b></p>
+                                    <p>
+                                        Endereço: Rua Felipe Neri 419 - Sala 201<br>
+                                        Telefones: (51) 2103-9478
+                                    </p>
+                                    <p><a href="www.milleniumonline.biz">www.milleniumonline.biz</a></p>
+                                </div>
+                                <div class="desconto_parceiro">
+                                    <h6>Desconto para assinantes</h6>
+                                    <h1>-20%</h1>
+                                </div>
+                        </div>
+                        <div class="parceiro">
+                                <div class="logo_parceiro">
+                                    <img src="imagens/img_logo_millenium.png">
+                                </div>
+                                <div class="info_parceiro">
+                                    <h4>Millenium Equity</h4>
+                                    <p><b>Organizador de festas infantis / Agência de comunicação</b></p>
+                                    <p>
+                                        Endereço: Rua Felipe Neri 419 - Sala 201<br>
+                                        Telefones: (51) 2103-9478
+                                    </p>
+                                    <p><a href="www.milleniumonline.biz">www.milleniumonline.biz</a></p>
+                                </div>
+                                <div class="desconto_parceiro">
+                                    <h6>Desconto para assinantes</h6>
+                                    <h1>-20%</h1>
+                                </div>
+                        </div>
+                        <div class="parceiro">
+                                <div class="logo_parceiro">
+                                    <img src="imagens/img_logo_millenium.png">
+                                </div>
+                                <div class="info_parceiro">
+                                    <h4>Millenium Equity</h4>
+                                    <p><b>Organizador de festas infantis / Agência de comunicação</b></p>
+                                    <p>
+                                        Endereço: Rua Felipe Neri 419 - Sala 201<br>
+                                        Telefones: (51) 2103-9478
+                                    </p>
+                                    <p><a href="www.milleniumonline.biz">www.milleniumonline.biz</a></p>
+                                </div>
+                                <div class="desconto_parceiro">
+                                    <h6>Desconto para assinantes</h6>
+                                    <h1>-20%</h1>
+                                </div>
+                        </div>
+                        <div class="parceiro">
+                                <div class="logo_parceiro">
+                                    <img src="imagens/img_logo_millenium.png">
+                                </div>
+                                <div class="info_parceiro">
+                                    <h4>Millenium Equity</h4>
+                                    <p><b>Organizador de festas infantis / Agência de comunicação</b></p>
+                                    <p>
+                                        Endereço: Rua Felipe Neri 419 - Sala 201<br>
+                                        Telefones: (51) 2103-9478
+                                    </p>
+                                    <p><a href="www.milleniumonline.biz">www.milleniumonline.biz</a></p>
+                                </div>
+                                <div class="desconto_parceiro">
+                                    <h6>Desconto para assinantes</h6>
+                                    <h1>-20%</h1>
+                                </div>
+                        </div>
                     </div>
                     <div id="div_direita">
                         <div id="box_pesq">
@@ -33,9 +184,16 @@
                         <div id="div_boxhist">
                             <img class="tit_album" src="imagens/img_tit_categorias.png" alt="">
                             <ul id="categoria">
-                                <li> <h5>CATEGORIA 1</h5>
+                                <li> <h5>EVENTOS</h5>
                                     <ul id="sub-categoria"> 
-                                        <li><H6>SUB-CATEGORIA 1</H6></li>
+                                        <li><H6>ESPAÇO PARA FESTAS (2)</H6></li>
+                                        <li><H6>DECORADORES E ORGANIZADORES (2)</H6></li>
+                                    </ul>
+                                </li>
+                                <li><h5>SAÚDE</h5>
+                                    <ul id="sub-categoria"> 
+                                        <li><H6>PEDIATRIA (2)</H6></li>
+                                        <li><H6>PRONTO-ATENDIMENTO (2)</H6></li>
                                     </ul>
                                 </li>
                             </ul>

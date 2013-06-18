@@ -851,7 +851,95 @@ div:after, ol:after, form:after, ul:after, dl:after {
     height: 105px;
     padding: 8px;
     background-color: #ecebeb;
+    margin-bottom: 10px;
 }
 .patrocinado{
     background-color: #ec008c;
+}
+.logo_parceiro{
+    margin-top: 1px;
+    float: left;
+    margin-right: 20px;
+}
+.info_parceiro{
+    float: left;
+    position: relative;
+    width: 410px;
+}
+.desconto_parceiro{
+    text-align: center;
+    background-color: #fff;
+    width: 103px;
+    height: 103px;
+    float: right;
+    margin-top: 1px;
+}
+.desconto_parceiro h6{
+    margin-top: 10px;
+    color: #888888;
+    font-size: 13px;
+    line-height: 1em;
+}
+.desconto_parceiro h1{
+    font-size: 45px;
+    line-height: 1em;
+}
+#div_main_guia #div_esquerda b{
+    color: #000;
+}
+.info_parceiro p{
+    margin-bottom: 4px;
+    line-height: 1.3em;
+}
+.info_parceiro h4{
+    color: #888888;
+    margin-bottom: 5px;
+}
+.info_parceiro a{
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.patrocinado .info_parceiro p{
+    color: #fff;
+}
+.patrocinado .info_parceiro a{
+    color: #fff;
+}
+.patrocinado .info_parceiro h4{
+    color: #fff;
+}
+.icones_midias{
+    width: 65px;
+    height: 23px;
+    position: absolute;
+    right: 0px;
+    bottom: 4px;
+}
+.videos_parceiro{
+    display: block;
+    float: left;
+    width: 23px;
+    height: 23px;
+    background-image: url('../imagens/img_ico_videos_cinza.png');
+}
+.fotos_parceiro{
+    display: block;
+    float: right;
+    width: 31px;
+    height: 20px;
+    margin-top: 2px;
+    background-image: url('../imagens/img_ico_fotos_cinza.png');
+}
+.patrocinado .videos_parceiro{
+    background-image: url('../imagens/img_ico_videos_branco.png');
+}
+.patrocinado .fotos_parceiro{
+    background-image: url('../imagens/img_ico_fotos_branco.png');
+}
+#container_patrocinados{
+    margin-bottom: 25px;
+}
+#categoria h6{
+    font-weight: normal;
 }
